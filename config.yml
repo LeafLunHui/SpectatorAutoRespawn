@@ -1,0 +1,31 @@
+#CoolDown time for death
+RespawnDelay: 5
+#enable spectator gamemode after you died
+EnableSP: true
+Title:
+#Title fadein time
+  FadeinTime: 5
+#Title fadeout time
+  FadeoutTime: 10
+#title stay time in screen
+  StayTime: 2
+#Enable Title?
+  Enable: false
+#cooldown title message
+  CoolDown:
+    Title: '&4You has been Die...'
+#cooldown subtitle message
+    SubTitle: '&6Please wait for CoolDown'
+#respawn title message
+  ReSpawn:
+    Title: '&aWaiting....'
+#respawn subtitle message
+    SubTitle: '&c%left% seconds left'
+#common die message 
+DieM:
+  - '&6You has been die'
+  - '&4CoolDown'
+#common respawn message
+ReSpawnM:
+  - '&cWaiting:'
+  - '&a%left% seconds left'
